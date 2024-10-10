@@ -41,7 +41,7 @@ This project is a simple implementation of the Minesweeper game using Java. The 
 
    ```sh
    git clone https://github.com/yourusername/java-minesweeper.git
-   cd java-minesweeper
+   cd java-minesweepergame
    ```
    
 2. **Check java and maven in place**:
@@ -78,7 +78,3 @@ When you run the game, you will be prompted to enter the size of the grid and th
 - **Objective**: Uncover all the tiles without detonating any mines.
 - **Controls**: Click on a tile to uncover it. If you uncover a mine, the game ends.
 - **Winning**: You win the game by uncovering all the tiles that do not contain mines.
-
-## Run Test
-
-Open project in Eclipse or Intellij IDE and Junit-4.13.2.jar and hamcrest-core-1.3.jar and run the MineSweeperRunnerTest and MineSweeperServiceTest
