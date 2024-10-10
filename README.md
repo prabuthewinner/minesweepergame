@@ -14,7 +14,7 @@ This project has been tested and is compatible with the following operating syst
 
 - Java 8 or higher
 - Maven 3.6.0 or higher
-- Add JAVA_HOME and M2_HOME variable and path in environment variables
+- Add JAVA_HOME and M2_HOME variable in environment path variables
 
 ## Table of Contents
 
