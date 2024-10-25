@@ -64,7 +64,8 @@ public class UserInteraction {
             try {
                 System.out.println(
                         "Enter the number of mines to place on the grid (maximum is 35% of the total squares): ");
-                minesCount = scanner.nextInt();
+                double temp = scanner.nextDouble();
+                minesCount = (int) Math.round(temp);
 
                 if (minesCount > eligibleMineCount || minesCount < 1) {
                     System.out.println("Enter a valid number of mines between 1 and " + eligibleMineCount);
